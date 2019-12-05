@@ -20,4 +20,4 @@ Then the next time you open lexmapr.owl, the new term should appear, along with 
 
     'has member' some ('Canis lupus familiaris' or 'Felis catus')
 
-To reference 'Canis lupus familiaris' in the rule you first have to enter it into lexmapr.owl.  Since it is an NCBITaxon term, it is best to add its URI to the imports/obo_ontofetch.txt file, in the UBERON term import section; then regenerate obo_import.owl .  With it now referenced in lexmapr.owl, you can go back and compose the equivalency rule given above.
+To reference 'Canis lupus familiaris' in the rule you first have to enter it into lexmapr.owl by way of the imports/obo_import.owl file.  Since it is an NCBITaxon term, it is best to add its URI to the imports/obo_ontofetch.txt file, in the UBERON term import section; then regenerate obo_import.owl .  With it now referenced in lexmapr.owl, you can go back and compose the equivalency rule given above.
