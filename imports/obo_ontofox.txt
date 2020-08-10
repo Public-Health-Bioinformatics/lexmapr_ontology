@@ -57,13 +57,17 @@ http://purl.obolibrary.org/obo/CHEBI_60926 # amino monosaccharide
 http://purl.obolibrary.org/obo/CHEBI_63299 # carbohydrate derivative
 http://purl.obolibrary.org/obo/CHEBI_65212 # polysaccharide derivative
 http://purl.obolibrary.org/obo/CHEBI_78616 # carbohydrates and carbohydrate derivatives
+http://purl.obolibrary.org/obo/CHEBI_33290 # food        							# food
+http://purl.obolibrary.org/obo/CHEBI_60004 # mixture        						# multi-ingredient
+http://purl.obolibrary.org/obo/CHEBI_24866 # salt
+
 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 
-http://purl.obolibrary.org/obo/CHEBI_24432 # biological role 
+http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
 
 [Source term retrieval setting]
@@ -71,7 +75,7 @@ includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
@@ -95,7 +99,7 @@ includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
@@ -151,6 +155,16 @@ http://purl.obolibrary.org/obo/ENVO_02000019 # bodily fluid material
 http://purl.obolibrary.org/obo/ENVO_02000020 # blood material
 http://purl.obolibrary.org/obo/ENVO_02000022 # excreta material
 http://purl.obolibrary.org/obo/ENVO_02000047 # animal feed
+http://purl.obolibrary.org/obo/ENVO_00003040 # animal house    							# environmental-animal housing
+http://purl.obolibrary.org/obo/ENVO_02000055 # plant feed        						# animal feed
+http://purl.obolibrary.org/obo/ENVO_00000191 # solid astronomical body part
+http://purl.obolibrary.org/obo/ENVO_00000294 # fish farm
+http://purl.obolibrary.org/obo/ENVO_00002007 # sediment
+http://purl.obolibrary.org/obo/ENVO_00002033 # carcass
+http://purl.obolibrary.org/obo/ENVO_00003030 # silage
+http://purl.obolibrary.org/obo/ENVO_00003031 # animal manure
+http://purl.obolibrary.org/obo/ENVO_01000924 # plumbing drain
+http://purl.obolibrary.org/obo/ENVO_02000043 # biological product
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -231,10 +245,10 @@ http://purl.obolibrary.org/obo/FOODON_00001292 # oyster food product
 http://purl.obolibrary.org/obo/FOODON_00001293 # shellfish food product
 http://purl.obolibrary.org/obo/FOODON_00001625 # avocado vegetable food product
 http://purl.obolibrary.org/obo/FOODON_00001628 # banana food product
-http://purl.obolibrary.org/obo/FOODON_00001635 # bean (vegetable) food product
+http://purl.obolibrary.org/obo/FOODON_00001635 # bean food product
 http://purl.obolibrary.org/obo/FOODON_00001638 # beet food product
 http://purl.obolibrary.org/obo/FOODON_00001640 # berry food product
-http://purl.obolibrary.org/obo/FOODON_00001653 # blackberry food product
+http://purl.obolibrary.org/obo/FOODON_00001653 # blackberry group food product
 http://purl.obolibrary.org/obo/FOODON_00001656 # blueberry food product
 http://purl.obolibrary.org/obo/FOODON_00001678 # calf meat food product
 http://purl.obolibrary.org/obo/FOODON_00001687 # carrot food product
@@ -402,6 +416,156 @@ http://purl.obolibrary.org/obo/FOODON_03420164 # part of animal
 http://purl.obolibrary.org/obo/FOODON_03420174 # part of plant
 http://purl.obolibrary.org/obo/FOODON_03420183 # sprout
 http://purl.obolibrary.org/obo/FOODON_03420228 # extract, concentrate or isolate of plant or animal
+http://purl.obolibrary.org/obo/FOODON_00001087 # vegetable oil food product				# oils
+http://purl.obolibrary.org/obo/FOODON_00001140 # fruit juice food product  				# fruits
+http://purl.obolibrary.org/obo/FOODON_00001156 # citrus fruit juice        				# sub-tropical fruit
+http://purl.obolibrary.org/obo/FOODON_00001164 # tomato vegetable food product 			# seeded vegetables (solanaceous)
+http://purl.obolibrary.org/obo/FOODON_00001176 # invertebrate animal food product 		# animal
+http://purl.obolibrary.org/obo/FOODON_00001180 # prepared food product        			# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_00001284 # duck meat food product        			# other poultry
+http://purl.obolibrary.org/obo/FOODON_00001285 # goose meat food product        		# other poultry
+http://purl.obolibrary.org/obo/FOODON_00001575 # abalone food product        			# mollusks (non-bi-valve)
+http://purl.obolibrary.org/obo/FOODON_00001584 # alfalfa vegetable food product   		# sprouts
+http://purl.obolibrary.org/obo/FOODON_00001666 # broccoli vegetable food product   		# vegetable row crops (flower)
+http://purl.obolibrary.org/obo/FOODON_00001670 # brussels sprout vegetable food product	# sprouts
+http://purl.obolibrary.org/obo/FOODON_00001707 # cephalopod food product        		# mollusks (non-bi-valve)
+http://purl.obolibrary.org/obo/FOODON_00001746 # cockle food product        			# mollusks (bi-valve)
+http://purl.obolibrary.org/obo/FOODON_00001888 # fruit jelly food product				# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_00001958 # human milk based food product        	# human
+http://purl.obolibrary.org/obo/FOODON_00001998 # lettuce vegetable food product        	# vegetable row crops (leafy)
+http://purl.obolibrary.org/obo/FOODON_00002111 # pepper vegetable food product        	# seeded vegetables (solanaceous)
+http://purl.obolibrary.org/obo/FOODON_00002114 # pie food product						# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_00002140 # plant floret vegetable food product   	# vegetable row crops (flower)
+http://purl.obolibrary.org/obo/FOODON_00002244 # snail food product        				# mollusks (non-bi-valve)
+http://purl.obolibrary.org/obo/FOODON_00002271 # squash vegetable food product        	# seeded vegetables (vine-grown)
+http://purl.obolibrary.org/obo/FOODON_00002300 # sweetener food product        			# sugars
+http://purl.obolibrary.org/obo/FOODON_00002616 # avian animal        					# avian
+http://purl.obolibrary.org/obo/FOODON_00002689 # tropical fruit food product        	# tropical fruit
+http://purl.obolibrary.org/obo/FOODON_00003004 # animal        							# animal
+http://purl.obolibrary.org/obo/FOODON_03303398 # kiwifruit (whole, raw)        			# small fruit
+http://purl.obolibrary.org/obo/FOODON_03304339 # pigeon (raw)        					# other poultry
+http://purl.obolibrary.org/obo/FOODON_03308735 # tuna salad (food product)        		# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_03316042 # salad        							# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_03316989 # octopus food product        			# mollusks (non-bi-valve)
+http://purl.obolibrary.org/obo/FOODON_03411179 # spice or flavor-producing plant        # herbs
+http://purl.obolibrary.org/obo/FOODON_03411208 # squash plant        					# seeded vegetables (vine-grown)
+http://purl.obolibrary.org/obo/FOODON_03411232 # corn plant (maize plant)        		# seeded vegetables (other)
+http://purl.obolibrary.org/obo/FOODON_03411236 # turkey (bird)        					# turkey
+http://purl.obolibrary.org/obo/FOODON_03411338 # pea plant        						# seeded vegetables (legumes)
+http://purl.obolibrary.org/obo/FOODON_03413503 # gull        							# game
+http://purl.obolibrary.org/obo/FOODON_03414847 # dog        							# companion animal
+http://purl.obolibrary.org/obo/FOODON_03420103 # meat part of animal        			# meat
+http://purl.obolibrary.org/obo/FOODON_03420155 # seed (anatomical part)        			# seeds
+http://purl.obolibrary.org/obo/FOODON_03420194 # egg or egg component        			# eggs
+http://purl.obolibrary.org/obo/FOODON_03460229 # flavoring, spice or herb, natural     	# herbs
+http://purl.obolibrary.org/obo/FOODON_03308493 # seafood salad (food product)	     	# aquatic animals
+http://purl.obolibrary.org/obo/FOODON_00001727 # chicken salad food product     		# chicken
+http://purl.obolibrary.org/obo/FOODON_00001872 # food product type (to be processed)  	# other
+http://purl.obolibrary.org/obo/FOODON_00001871 # food product analog			     	# food analog
+http://purl.obolibrary.org/obo/FOODON_00001952 # horse meat food product			   	# other meat
+http://purl.obolibrary.org/obo/FOODON_00001178 # honey food product			     		# sugars
+http://purl.obolibrary.org/obo/FOODON_00002157 # plant sweetener			     		# sugars
+http://purl.obolibrary.org/obo/FOODON_00001226 # fruit preserve or jam food product		# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_00002501 # multi-component food			     	# multi-ingredient
+http://purl.obolibrary.org/obo/FOODON_03310387 # oil			     					# oils
+http://purl.obolibrary.org/obo/FOODON_00001007	# sausage food product
+http://purl.obolibrary.org/obo/FOODON_00001079	# food (pickled)
+http://purl.obolibrary.org/obo/FOODON_00001149	# confectionery food product
+http://purl.obolibrary.org/obo/FOODON_00001184	# algal food product
+http://purl.obolibrary.org/obo/FOODON_00001250	# fish egg food product
+http://purl.obolibrary.org/obo/FOODON_00001605	# animal product sausage
+http://purl.obolibrary.org/obo/FOODON_00001618	# artificial sweetener food product
+http://purl.obolibrary.org/obo/FOODON_00001626	# bakery food product
+http://purl.obolibrary.org/obo/FOODON_00001809	# dietary or therapeutic formulation food product
+http://purl.obolibrary.org/obo/FOODON_00001854	# fish food product analog
+http://purl.obolibrary.org/obo/FOODON_00001873	# food spread
+http://purl.obolibrary.org/obo/FOODON_00001874	# food supplement food product
+http://purl.obolibrary.org/obo/FOODON_00001885	# fruit butter food product
+http://purl.obolibrary.org/obo/FOODON_00001931	# gravy or sauce
+http://purl.obolibrary.org/obo/FOODON_00002142	# plant head vegetable food product
+http://purl.obolibrary.org/obo/FOODON_00002221	# salt product
+http://purl.obolibrary.org/obo/FOODON_00002229	# seafood product analog
+http://purl.obolibrary.org/obo/FOODON_00002257	# soup food product
+http://purl.obolibrary.org/obo/FOODON_00002264	# soybean refined food product
+http://purl.obolibrary.org/obo/FOODON_00002286	# sugar based cacao food product
+http://purl.obolibrary.org/obo/FOODON_00002291	# sugar cane sweetener food product
+http://purl.obolibrary.org/obo/FOODON_00002305	# swine sandwich
+http://purl.obolibrary.org/obo/FOODON_00002306	# swine sausage
+http://purl.obolibrary.org/obo/FOODON_00002400	# carob food product
+http://purl.obolibrary.org/obo/FOODON_00002644	# food (filled)
+http://purl.obolibrary.org/obo/FOODON_00002661	# food (breaded)
+http://purl.obolibrary.org/obo/FOODON_00002693	# alpaca
+http://purl.obolibrary.org/obo/FOODON_00002717	# fly
+http://purl.obolibrary.org/obo/FOODON_00002723	# mink
+http://purl.obolibrary.org/obo/FOODON_00002728	# kielbasa
+http://purl.obolibrary.org/obo/FOODON_00002733	# food (seasoned)
+http://purl.obolibrary.org/obo/FOODON_00002738	# meat and bone meal
+http://purl.obolibrary.org/obo/FOODON_00002895	# kratom
+http://purl.obolibrary.org/obo/FOODON_00002911	# bratwurst
+http://purl.obolibrary.org/obo/FOODON_00002935	# venison
+http://purl.obolibrary.org/obo/FOODON_00002955	# lemur
+http://purl.obolibrary.org/obo/FOODON_00002979	# wild turkey
+http://purl.obolibrary.org/obo/FOODON_00002997	# okapi
+http://purl.obolibrary.org/obo/FOODON_00003260	# chicken curry
+http://purl.obolibrary.org/obo/FOODON_00003316	# giraffe
+http://purl.obolibrary.org/obo/FOODON_03301444	# vegetable juice food product
+http://purl.obolibrary.org/obo/FOODON_03302001	# animal-derived food
+http://purl.obolibrary.org/obo/FOODON_03302012	# frankfurter
+http://purl.obolibrary.org/obo/FOODON_03302676	# imitation maple sweetener
+http://purl.obolibrary.org/obo/FOODON_03303130	# infant formula
+http://purl.obolibrary.org/obo/FOODON_03304292	# spice mixture
+http://purl.obolibrary.org/obo/FOODON_03304509	# imitation honey
+http://purl.obolibrary.org/obo/FOODON_03304628	# hen egg salad
+http://purl.obolibrary.org/obo/FOODON_03304706	# imitation maple syrup
+http://purl.obolibrary.org/obo/FOODON_03306123	# fish oil
+http://purl.obolibrary.org/obo/FOODON_03306503	# bologna
+http://purl.obolibrary.org/obo/FOODON_03306648	# curry (dish)
+http://purl.obolibrary.org/obo/FOODON_03307555	# imitation sugar
+http://purl.obolibrary.org/obo/FOODON_03307770	# egg salad sandwich
+http://purl.obolibrary.org/obo/FOODON_03307771	# tuna salad sandwich
+http://purl.obolibrary.org/obo/FOODON_03307824	# ham and cheese sandwich
+http://purl.obolibrary.org/obo/FOODON_03309387	# poultry carcass
+http://purl.obolibrary.org/obo/FOODON_03310573	# turkey sandwich
+http://purl.obolibrary.org/obo/FOODON_03310775	# pizza food product
+http://purl.obolibrary.org/obo/FOODON_03310946	# chicken vegetable soup
+http://purl.obolibrary.org/obo/FOODON_03310971	# turkey ham
+http://purl.obolibrary.org/obo/FOODON_03311003	# pepperoni
+http://purl.obolibrary.org/obo/FOODON_03311682	# mortadella
+http://purl.obolibrary.org/obo/FOODON_03312036	# cheese sandwich
+http://purl.obolibrary.org/obo/FOODON_03312067	# salami
+http://purl.obolibrary.org/obo/FOODON_03315013	# snack food
+http://purl.obolibrary.org/obo/FOODON_03315170	# sugar substitute
+http://purl.obolibrary.org/obo/FOODON_03316070	# chorizo
+http://purl.obolibrary.org/obo/FOODON_03316277	# fish salad (food product)
+http://purl.obolibrary.org/obo/FOODON_03317269	# knockwurst
+http://purl.obolibrary.org/obo/FOODON_03401298	# dietary supplement
+http://purl.obolibrary.org/obo/FOODON_03411251	# grouse
+http://purl.obolibrary.org/obo/FOODON_03411257	# moose
+http://purl.obolibrary.org/obo/FOODON_03411301	# algae
+http://purl.obolibrary.org/obo/FOODON_03411325	# beaver
+http://purl.obolibrary.org/obo/FOODON_03411346	# quail
+http://purl.obolibrary.org/obo/FOODON_03411389	# squirrel
+http://purl.obolibrary.org/obo/FOODON_03411450	# opossum
+http://purl.obolibrary.org/obo/FOODON_03411461	# raccoon
+http://purl.obolibrary.org/obo/FOODON_03411509	# reindeer
+http://purl.obolibrary.org/obo/FOODON_03411669	# lamb
+http://purl.obolibrary.org/obo/FOODON_03412092	# kangaroo
+http://purl.obolibrary.org/obo/FOODON_03412097	# zebra
+http://purl.obolibrary.org/obo/FOODON_03412103	# camel
+http://purl.obolibrary.org/obo/FOODON_03412248	# boar
+http://purl.obolibrary.org/obo/FOODON_03412406	# bear
+http://purl.obolibrary.org/obo/FOODON_03412695	# hare
+http://purl.obolibrary.org/obo/FOODON_03412741	# llama
+http://purl.obolibrary.org/obo/FOODON_03412972	# food additive
+http://purl.obolibrary.org/obo/FOODON_03413363	# dolphin family
+http://purl.obolibrary.org/obo/FOODON_03414163	# eared seal family
+http://purl.obolibrary.org/obo/FOODON_03430154	# food supplement form
+http://purl.obolibrary.org/obo/FOODON_03460173	# food (salted)
+http://purl.obolibrary.org/obo/FOODON_03490100	# food container or wrapping
+http://purl.obolibrary.org/obo/FOODON_03500010	# food contact surface
+http://purl.obolibrary.org/obo/FOODON_03530040	# jowl trimmed
+
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -428,6 +592,13 @@ GENEPIO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GENEPIO_0001237 # specimen source material category
 http://purl.obolibrary.org/obo/GENEPIO_0001246 # environmental specimen
+http://purl.obolibrary.org/obo/GENEPIO_0001056 # pet treat        						# animal feed
+http://purl.obolibrary.org/obo/GENEPIO_0001732 # environmental (swab or sampling)		# environmental
+http://purl.obolibrary.org/obo/GENEPIO_0001057 # pet food (raw)
+http://purl.obolibrary.org/obo/GENEPIO_0001727 # swab - meat (deprecated)
+http://purl.obolibrary.org/obo/GENEPIO_0002016 # plant product
+http://purl.obolibrary.org/obo/BTO_0001481     # plant
+
 
 
 [Top level source term URIs and target direct superclass URIs]
@@ -788,6 +959,141 @@ http://purl.obolibrary.org/obo/NCBITaxon_9893 # Giraffa
 http://purl.obolibrary.org/obo/NCBITaxon_9900 # Bison
 http://purl.obolibrary.org/obo/NCBITaxon_9913 # Bos taurus
 http://purl.obolibrary.org/obo/NCBITaxon_9940 # Ovis aries
+http://purl.obolibrary.org/obo/NCBITAXON_33090 # viridiplantae        					# plant
+http://purl.obolibrary.org/obo/NCBITAXON_4751  # fungi        							# fungi
+http://purl.obolibrary.org/obo/NCBITAXON_7898  # actinopterygii        					# fish
+http://purl.obolibrary.org/obo/NCBITAXON_9606  # homo sapiens        					# human
+http://purl.obolibrary.org/obo/NCBITAXON_10090	# mus musculus
+http://purl.obolibrary.org/obo/NCBITAXON_10114	# rattus
+http://purl.obolibrary.org/obo/NCBITAXON_10141	# cavia porcellus
+http://purl.obolibrary.org/obo/NCBITAXON_10184	# castor
+http://purl.obolibrary.org/obo/NCBITAXON_103695	# pogona vitticeps
+http://purl.obolibrary.org/obo/NCBITAXON_119693	# caesio
+http://purl.obolibrary.org/obo/NCBITAXON_1227137	# pachypterus atherinoides
+http://purl.obolibrary.org/obo/NCBITAXON_124943	# azadirachta indica
+http://purl.obolibrary.org/obo/NCBITAXON_134415	# cicada
+http://purl.obolibrary.org/obo/NCBITAXON_142480	# sternotherus odoratus
+http://purl.obolibrary.org/obo/NCBITAXON_1574408	# cervus canadensis
+http://purl.obolibrary.org/obo/NCBITAXON_1637	# listeria
+http://purl.obolibrary.org/obo/NCBITAXON_176024	# eclectus roratus
+http://purl.obolibrary.org/obo/NCBITAXON_24966	# rubiaceae
+http://purl.obolibrary.org/obo/NCBITAXON_25641	# aloe
+http://purl.obolibrary.org/obo/NCBITAXON_27707	# puntius
+http://purl.obolibrary.org/obo/NCBITAXON_29064	# panthera uncia
+http://purl.obolibrary.org/obo/NCBITAXON_30458	# strigiformes
+http://purl.obolibrary.org/obo/NCBITAXON_30539	# vicugna
+http://purl.obolibrary.org/obo/NCBITAXON_30577	# erinaceinae
+http://purl.obolibrary.org/obo/NCBITAXON_3311	# ginkgo biloba
+http://purl.obolibrary.org/obo/NCBITAXON_34199	# aloe vera
+http://purl.obolibrary.org/obo/NCBITAXON_34814	# coryphaena hippurus
+http://purl.obolibrary.org/obo/NCBITAXON_34874	# saiga
+http://purl.obolibrary.org/obo/NCBITAXON_34984	# pythonidae
+http://purl.obolibrary.org/obo/NCBITAXON_35609	# pecari
+http://purl.obolibrary.org/obo/NCBITAXON_3620	# rheum
+http://purl.obolibrary.org/obo/NCBITAXON_36310	# gekko gecko
+http://purl.obolibrary.org/obo/NCBITAXON_3649	# carica papaya
+http://purl.obolibrary.org/obo/NCBITAXON_365651	# trachemys callirostris
+http://purl.obolibrary.org/obo/NCBITAXON_37172	# damaliscus pygargus phillipsi
+http://purl.obolibrary.org/obo/NCBITAXON_37184	# hippotragus
+http://purl.obolibrary.org/obo/NCBITAXON_373995	# tenualosa ilisha
+http://purl.obolibrary.org/obo/NCBITAXON_3750	# malus domestica
+http://purl.obolibrary.org/obo/NCBITAXON_37579	# python
+http://purl.obolibrary.org/obo/NCBITAXON_3764	# rosa
+http://purl.obolibrary.org/obo/NCBITAXON_37965	# hybrid
+http://purl.obolibrary.org/obo/NCBITAXON_39174	# origanum
+http://purl.obolibrary.org/obo/NCBITAXON_4071	# capsicum
+http://purl.obolibrary.org/obo/NCBITAXON_4231	# helianthus
+http://purl.obolibrary.org/obo/NCBITAXON_4329	# macadamia
+http://purl.obolibrary.org/obo/NCBITAXON_43328	# rucervus duvaucelii
+http://purl.obolibrary.org/obo/NCBITAXON_452646	# neovison vison
+http://purl.obolibrary.org/obo/NCBITAXON_51088	# myristica
+http://purl.obolibrary.org/obo/NCBITAXON_511552	# piper sanctum
+http://purl.obolibrary.org/obo/NCBITAXON_51238	# vanilla
+http://purl.obolibrary.org/obo/NCBITAXON_52904	# scophthalmus maximus
+http://purl.obolibrary.org/obo/NCBITAXON_53922	# senna
+http://purl.obolibrary.org/obo/NCBITAXON_54600	# macaca nigra
+http://purl.obolibrary.org/obo/NCBITAXON_57247	# psittacus erithacus
+http://purl.obolibrary.org/obo/NCBITAXON_590	# salmonella
+http://purl.obolibrary.org/obo/NCBITAXON_59546	# damaliscus lunatus jimela
+http://purl.obolibrary.org/obo/NCBITAXON_60711	# chlorocebus sabaeus
+http://purl.obolibrary.org/obo/NCBITAXON_6595	# mercenaria
+http://purl.obolibrary.org/obo/NCBITAXON_6627	# illex
+http://purl.obolibrary.org/obo/NCBITAXON_690715	# leucophaeus pipixcan
+http://purl.obolibrary.org/obo/NCBITAXON_69298	# tragelaphus spekii
+http://purl.obolibrary.org/obo/NCBITAXON_7370	# musca domestica
+http://purl.obolibrary.org/obo/NCBITAXON_75027	# naso
+http://purl.obolibrary.org/obo/NCBITAXON_7997	# ictalurus
+http://purl.obolibrary.org/obo/NCBITAXON_8000	# pangasius
+http://purl.obolibrary.org/obo/NCBITAXON_8019	# oncorhynchus kisutch
+http://purl.obolibrary.org/obo/NCBITAXON_8022	# oncorhynchus mykiss
+http://purl.obolibrary.org/obo/NCBITAXON_8062	# merluccius
+http://purl.obolibrary.org/obo/NCBITAXON_8190	# mugil
+http://purl.obolibrary.org/obo/NCBITAXON_8234	# thunnus
+http://purl.obolibrary.org/obo/NCBITAXON_8235	# thunnus alalunga
+http://purl.obolibrary.org/obo/NCBITAXON_84645	# labeo rohita
+http://purl.obolibrary.org/obo/NCBITAXON_8475	# chelydra serpentina
+http://purl.obolibrary.org/obo/NCBITAXON_8496	# alligator mississippiensis
+http://purl.obolibrary.org/obo/NCBITAXON_8515	# iguanidae
+http://purl.obolibrary.org/obo/NCBITAXON_8556	# varanus
+http://purl.obolibrary.org/obo/NCBITAXON_8570	# serpentes
+http://purl.obolibrary.org/obo/NCBITAXON_8728	# crotalus
+http://purl.obolibrary.org/obo/NCBITAXON_8782	# aves
+http://purl.obolibrary.org/obo/NCBITAXON_8790	# dromaius novaehollandiae
+http://purl.obolibrary.org/obo/NCBITAXON_8797	# rhea americana
+http://purl.obolibrary.org/obo/NCBITAXON_8801	# struthio camelus
+http://purl.obolibrary.org/obo/NCBITAXON_8852	# branta
+http://purl.obolibrary.org/obo/NCBITAXON_8853	# branta canadensis
+http://purl.obolibrary.org/obo/NCBITAXON_8859	# chloephaga
+http://purl.obolibrary.org/obo/NCBITAXON_8910	# laridae
+http://purl.obolibrary.org/obo/NCBITAXON_8930	# columbidae
+http://purl.obolibrary.org/obo/NCBITAXON_9014	# colinus virginianus
+http://purl.obolibrary.org/obo/NCBITAXON_9054	# phasianus colchicus
+http://purl.obolibrary.org/obo/NCBITAXON_9090	# coturnix
+http://purl.obolibrary.org/obo/NCBITAXON_9103	# meleagris gallopavo
+http://purl.obolibrary.org/obo/NCBITAXON_9240	# spheniscus humboldti
+http://purl.obolibrary.org/obo/NCBITAXON_9312	# macropus
+http://purl.obolibrary.org/obo/NCBITAXON_9351	# tamandua mexicana
+http://purl.obolibrary.org/obo/NCBITAXON_9367	# atelerix
+http://purl.obolibrary.org/obo/NCBITAXON_94231	# epinephelus
+http://purl.obolibrary.org/obo/NCBITAXON_9443	# primates
+http://purl.obolibrary.org/obo/NCBITAXON_9611	# canis
+http://purl.obolibrary.org/obo/NCBITAXON_9643	# ursus americanus
+http://purl.obolibrary.org/obo/NCBITAXON_9655	# mustelidae
+http://purl.obolibrary.org/obo/NCBITAXON_9668	# mustela putorius
+http://purl.obolibrary.org/obo/NCBITAXON_9696	# puma concolor
+http://purl.obolibrary.org/obo/NCBITAXON_9726	# delphinidae
+http://purl.obolibrary.org/obo/NCBITAXON_9774	# sirenia
+http://purl.obolibrary.org/obo/NCBITAXON_9789	# equus
+http://purl.obolibrary.org/obo/NCBITAXON_9791	# equus zebra
+http://purl.obolibrary.org/obo/NCBITAXON_9793	# equus asinus
+http://purl.obolibrary.org/obo/NCBITAXON_9796	# equus caballus
+http://purl.obolibrary.org/obo/NCBITAXON_9822	# sus
+http://purl.obolibrary.org/obo/NCBITAXON_9825	# sus scrofa domesticus
+http://purl.obolibrary.org/obo/NCBITAXON_9835	# camelidae
+http://purl.obolibrary.org/obo/NCBITAXON_9836	# camelus
+http://purl.obolibrary.org/obo/NCBITAXON_9844	# lama glama
+http://purl.obolibrary.org/obo/NCBITAXON_9850	# cervidae
+http://purl.obolibrary.org/obo/NCBITAXON_9863	# cervus nippon
+http://purl.obolibrary.org/obo/NCBITAXON_9872	# odocoileus hemionus
+http://purl.obolibrary.org/obo/NCBITAXON_9874	# odocoileus virginianus
+http://purl.obolibrary.org/obo/NCBITAXON_9899	# ammotragus lervia
+http://purl.obolibrary.org/obo/NCBITAXON_9903	# bos
+http://purl.obolibrary.org/obo/NCBITAXON_9904	# bos gaurus
+http://purl.obolibrary.org/obo/NCBITAXON_9906	# bos javanicus
+http://purl.obolibrary.org/obo/NCBITAXON_9909	# bos primigenius
+http://purl.obolibrary.org/obo/NCBITAXON_9922	# capra
+http://purl.obolibrary.org/obo/NCBITAXON_9923	# capra aegagrus
+http://purl.obolibrary.org/obo/NCBITAXON_9925	# capra hircus
+http://purl.obolibrary.org/obo/NCBITAXON_9933	# gazella
+http://purl.obolibrary.org/obo/NCBITAXON_9935	# ovis
+http://purl.obolibrary.org/obo/NCBITAXON_9957	# oryx
+http://purl.obolibrary.org/obo/NCBITAXON_9963	# caprinae
+http://purl.obolibrary.org/obo/NCBITAXON_9970	# syncerus caffer
+http://purl.obolibrary.org/obo/NCBITAXON_9980	# lepus
+http://purl.obolibrary.org/obo/NCBITAXON_9986	# oryctolagus cuniculus
+http://purl.obolibrary.org/obo/NCBITAXON_9989	# rodentia
+http://purl.obolibrary.org/obo/NCBITAXON_FORMA	# forma
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_2157
@@ -822,6 +1128,11 @@ http://purl.obolibrary.org/obo/NCIT_C16830 # Medical Device
 http://purl.obolibrary.org/obo/NCIT_C17627 # swab
 http://purl.obolibrary.org/obo/NCIT_C43164 # Package Type
 http://purl.obolibrary.org/obo/NCIT_C43186 # Container
+http://purl.obolibrary.org/obo/NCIT_C14191 # cat
+http://purl.obolibrary.org/obo/NCIT_C14238 # mouse
+http://purl.obolibrary.org/obo/NCIT_C16960 # patient
+http://purl.obolibrary.org/obo/NCIT_C53471 # isolate
+
 
 [Top level source term URIs and target direct superclass URIs]
 
@@ -844,7 +1155,8 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0100026 # organism
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity 
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OBI_0600044 # lavage
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -895,7 +1207,7 @@ http://purl.obolibrary.org/obo/PATO_0001995 # organismal quality
 http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
 
-http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality NORMALLY subclass of PATO_0000001 
+http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality NORMALLY subclass of PATO_0000001
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
 
 [Source term retrieval setting]
@@ -923,6 +1235,30 @@ http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
 ########################################
 
 [Source ontology]
+PO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PO_0009001 # fruit        							# fruits
+http://purl.obolibrary.org/obo/PO_0009010 # seed        							# seeds
+http://purl.obolibrary.org/obo/PO_0025034 # leaf        							# herbs
+http://purl.obolibrary.org/obo/PO_0025356 # bulb        							# root/underground (tubers)
+http://purl.obolibrary.org/obo/PO_0025522 # tuber        							# root/underground (roots)
+http://purl.obolibrary.org/obo/PO_0025034 # leaf
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PO_0025131 # plant anatomical entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+
+
+########################################
+
+[Source ontology]
 UBERON
 
 [Low level source term URIs]
@@ -932,6 +1268,23 @@ http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
 http://purl.obolibrary.org/obo/UBERON_0002050 # embryonic structure
 http://purl.obolibrary.org/obo/UBERON_0005423 # developing anatomical structure
 http://purl.obolibrary.org/obo/UBERON_0007378 # egg yolk
+http://purl.obolibrary.org/obo/UBERON_0000060 # anatomical wall        					# environmental
+http://purl.obolibrary.org/obo/UBERON_0000178 # blood        							# clinical/research
+http://purl.obolibrary.org/obo/UBERON_0000310 # breast        							# meat
+http://purl.obolibrary.org/obo/UBERON_0001913 # milk        							# dairy
+http://purl.obolibrary.org/obo/UBERON_0001988 # feces        							# clinical/research
+http://purl.obolibrary.org/obo/UBERON_0002107 # liver        							# meat
+http://purl.obolibrary.org/obo/UBERON_0007651 # anatomical junction        				# environmental
+http://purl.obolibrary.org/obo/UBERON_0036016 # sugars        							# sugars
+http://purl.obolibrary.org/obo/UBERON_0000022 # feather
+http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
+http://purl.obolibrary.org/obo/UBERON_0000062 # organ
+http://purl.obolibrary.org/obo/UBERON_0000174 # excreta
+http://purl.obolibrary.org/obo/UBERON_0000463 # organism substance
+http://purl.obolibrary.org/obo/UBERON_0000467 # anatomical system
+http://purl.obolibrary.org/obo/UBERON_0006314 # bodily fluid
+
+
 
 [Top level source term URIs and target direct superclass URIs]
 # multi-homing is knocking some of these out?
@@ -944,7 +1297,7 @@ includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000111
 http://purl.obolibrary.org/obo/IAO_0000114
 http://purl.obolibrary.org/obo/IAO_0000119
@@ -961,3 +1314,40 @@ http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
 [Source annotation URIs to be excluded]
 
 
+########################################
+
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0001481 # plant
+http://purl.obolibrary.org/obo/BTO_0001762 # neonate
+
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+
+
+########################################
+
+[Source ontology]
+MMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MMO_0000344 # necropsy
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+
+
+########################################
